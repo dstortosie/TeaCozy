@@ -3,6 +3,7 @@ body {
   opacity: 0.9;
   font-family: Helvetica;
   font-size: 22px;
+  margin-left: 0px;
 }
 
 header {
@@ -13,8 +14,6 @@ header {
   z-index: 1;
   background-color: black;
   width: 100%;
-  font-family: Helvetica;
-  font-size: 22px;
   align-items:center;
   justify-content: space-between;
   top: 0px;
@@ -49,7 +48,6 @@ nav span a {
   margin-left: auto;
   margin-right: auto;
   top:35px;
-  margin-top: 0px;
 }
 
 .statement {
@@ -61,11 +59,11 @@ nav span a {
 
 #featured {
   position: relative;
+  padding-top: 70px;
 }
 
 .contents {
   width: 1000px;
-  margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,4 +90,59 @@ nav span a {
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+#locations {
+  position:relative;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#locations h2 {
+  color: white;
+  text-align: center;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+.boxes {
+  display:flex;
+  justify-content: center;
+  margin-top:0px;
+}
+
+.box {
+  height: 300px;
+  width: 300px;
+  color: white;
+  background-color: black;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+}
+
+#contact {
+  height: 200px;
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+footer h5 {
+  color: White;
+  padding-left: 0px;
+  margin-left: 20px;
 }
